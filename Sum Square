@@ -1,0 +1,10 @@
+N=int(input("Enter No. "));
+b=[]
+for i in range(1,N+1):
+  d=i*i;
+  b.append(d);
+c=[];
+m=0;
+for j in range(len(b)):
+  m=m+b[j];
+print("Sum of squares of number",m);
